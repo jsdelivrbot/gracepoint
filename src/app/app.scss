@@ -18,7 +18,7 @@ $dark: #23232B;
 $medium: #2C2C34;
 $medium-light: #42424A;
 $light: #ffffff;
-$accent: #00447c;
+$accent: #1b5e57;
 
 ion-toolbar {
 	color: color($colors, light);
@@ -65,13 +65,13 @@ ion-toolbar {
 }
 
 ion-card, .card-ios {
-	background-color: $medium-light;
-	color: $light;
+	//background-color: $medium-light;
+	//color: $light;
 	.card-title-ios {
-		color: $light;
+		//color: $light;
 	}
 	p {
-		color: $light;
+		//color: $light;
 	}
 	a {
 		color: $dark;
@@ -83,9 +83,9 @@ ion-card, .card-ios {
 }
 
 ion-item, .item-ios {
-	background-color: $medium-light;
+	//background-color: $medium-light;
 }
 
 ion-item-divider, .item-ios-primary, .item-divider-ios-primary {
-	background-color: $medium;
+	//background-color: $medium;
 }

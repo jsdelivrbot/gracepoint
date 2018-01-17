@@ -24,7 +24,7 @@ $tabs-ios-tab-icon-size: 25px;
 // colors so you can add, rename and remove colors as needed.
 // The "primary" color is the only required color in the map.
 $colors: ( primary: #00447c, secondary: #32db64, danger: #f53d3d, light: #f4f4f4, dark: #23232B);
-$text-color: color($colors, light);
+$text-color: color($colors, dark);
 $tabs-ios-tab-text-color: $text-color;
 // App iOS Variables
 // --------------------------------------------------
@@ -202,4 +202,4 @@ $tabs-ios-tab-text-color: $text-color;
 //Med:2C2C34
 //MedLight:42424A
 //Blue:00447c
-$background-ios-color: #2C2C34;
+//$background-ios-color: #2C2C34;
