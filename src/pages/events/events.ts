@@ -27,7 +27,6 @@ export class EventsPage {
 		loader.present();
 		this.greybackProvider.getCalendar(this.pageIndex).then(events => {
 			//this.events = events.Page;
-			console.log(events);
 			this.events = [];
 			this.addEvents(events);
 			loader.dismiss();
@@ -61,8 +60,8 @@ export class EventsPage {
 
 	addEvents(events) {
 		events.forEach((event, index) => {
-			let tmpMonth = moment.utc(event.OccurrenceStartTime).format('MMMM');
-			let tmpDay = moment.utc(event.OccurrenceStartTime).format('dddd, MMM Do');
+			let tmpMonth = moment.utc(event.date + ' ' + event.start_time).format('MMMM');
+			let tmpDay = moment.utc(event.date + ' ' + event.start_time).format('dddd, MMM Do');
 			if (this.curMonth != tmpMonth) {
 				this.monthIndex = this.events.length;
 				this.events.push({

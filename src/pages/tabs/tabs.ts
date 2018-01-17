@@ -10,7 +10,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 export class TabsPage {
 
 	tab1Root: any = 'HomePage';
-	tab2Root: any = 'SeriesPage';
+	tab2Root: any = 'LivestreamPage';
 	tab3Root: any = 'EventsPage';
 	tab4Root: any = 'TimesPage';
 	tab5Root: any = 'AboutPage';
@@ -26,7 +26,7 @@ export class TabsPage {
 	}
 
 	giving() {
-		this.iab.create('http://www.fbcwf.org/pages/page.asp?page_id=239772','_system');
+		this.iab.create('http://gracepointcoppell.org/give','_system');
 	}
 
 }

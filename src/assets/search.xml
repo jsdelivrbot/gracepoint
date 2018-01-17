@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccb_api>
+     <request>
+          <parameters>
+               <argument value="public_calendar_listing" name="srv"/>
+               <argument value="2018-01-01" name="date_start"/>
+               <argument value="2018-01-15" name="date_end"/>
+          </parameters>
+     </request>
+     <response>
+          <items count="40">
+               <item>
+                    <date>2018-01-01</date>
+                    <event_name ccb_id="3170">Ark CLOSED to Public</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-01</date>
+                    <event_name ccb_id="3171">Office CLOSED</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-02</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-02</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-03</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-03</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-04</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-04</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-05</date>
+                    <event_name ccb_id="704">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>12:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-05</date>
+                    <event_name ccb_id="210">OPEN Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>12:30:00</start_time>
+                    <end_time>14:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-05</date>
+                    <event_name ccb_id="211">OPEN Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>15:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-05</date>
+                    <event_name ccb_id="3108">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>17:30:00</start_time>
+                    <end_time>19:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-06</date>
+                    <event_name ccb_id="2875">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>10:00:00</start_time>
+                    <end_time>12:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-06</date>
+                    <event_name ccb_id="3057">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>12:30:00</start_time>
+                    <end_time>14:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-06</date>
+                    <event_name ccb_id="2758">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>15:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-06</date>
+                    <event_name ccb_id="3058">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>17:30:00</start_time>
+                    <end_time>19:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-07</date>
+                    <event_name ccb_id="2667">Sunday Worship Service</event_name>
+                    <event_description>Join us Sundays at 9:30am for our Worship Service in the Worship Center. We have music, prayer, announcements and a sermon from the Bible. Kids kindergarten and up are welcome, Preschool and Special Needs also available during this time.&amp;nbsp;</event_description>
+                    <start_time>09:30:00</start_time>
+                    <end_time>11:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Worship Center</location>
+                    <group_name ccb_id="1">Our Church</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="4032">Adam West</leader_name>
+                    <leader_phone>(214) 533-1464</leader_phone>
+                    <leader_email>awest@gracepointcoppell.org</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-07</date>
+                    <event_name ccb_id="3082">Korean Service</event_name>
+                    <event_description>Service (2:00pm - 3:45pm)&lt;br /&gt;
+Fellowship (3:45pm - 5:00pm)</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Student Center</location>
+                    <group_name ccb_id="220">GPKC (Korean Church)</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="3807">SaeAll Cha</leader_name>
+                    <leader_phone>(469) 531-7996</leader_phone>
+                    <leader_email>csasjs@gmail.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-07</date>
+                    <event_name ccb_id="2633">Korean Fellowship</event_name>
+                    <event_description>Where? The LOFT&lt;br /&gt;
+&lt;br /&gt;
+Why? For fellowshiop of GP Korean Church.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;</event_description>
+                    <start_time>18:30:00</start_time>
+                    <end_time>23:45:00</end_time>
+                    <event_duration>315</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Loft (First Place-Ste 210)</location>
+                    <group_name ccb_id="220">GPKC (Korean Church)</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="3807">SaeAll Cha</leader_name>
+                    <leader_phone>(469) 531-7996</leader_phone>
+                    <leader_email>csasjs@gmail.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-08</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-08</date>
+                    <event_name ccb_id="2990">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 9:00 am - 5:00 pm.</event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-09</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-09</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-10</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-10</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-11</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-11</date>
+                    <event_name ccb_id="2954">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 2:00 am - 5:00 pm on Tuesdays, Wednesdays and Thursdays during the school year.</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>GracePoint Church</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-12</date>
+                    <event_name ccb_id="704">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>12:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-12</date>
+                    <event_name ccb_id="210">OPEN Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>12:30:00</start_time>
+                    <end_time>14:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-12</date>
+                    <event_name ccb_id="3131">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>15:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-12</date>
+                    <event_name ccb_id="3132">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>17:30:00</start_time>
+                    <end_time>19:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-13</date>
+                    <event_name ccb_id="2845">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>10:00:00</start_time>
+                    <end_time>12:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-13</date>
+                    <event_name ccb_id="3059">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>12:30:00</start_time>
+                    <end_time>14:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-13</date>
+                    <event_name ccb_id="2985">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>15:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-13</date>
+                    <event_name ccb_id="3076">RESERVED Ark Party</event_name>
+                    <event_description></event_description>
+                    <start_time>17:30:00</start_time>
+                    <end_time>19:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="23">Ark Weekend Parties</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-14</date>
+                    <event_name ccb_id="2667">Sunday Worship Service</event_name>
+                    <event_description>Join us Sundays at 9:30am for our Worship Service in the Worship Center. We have music, prayer, announcements and a sermon from the Bible. Kids kindergarten and up are welcome, Preschool and Special Needs also available during this time.&amp;nbsp;</event_description>
+                    <start_time>09:30:00</start_time>
+                    <end_time>11:30:00</end_time>
+                    <event_duration>120</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Worship Center</location>
+                    <group_name ccb_id="1">Our Church</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="4032">Adam West</leader_name>
+                    <leader_phone>(214) 533-1464</leader_phone>
+                    <leader_email>awest@gracepointcoppell.org</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-14</date>
+                    <event_name ccb_id="3082">Korean Service</event_name>
+                    <event_description>Service (2:00pm - 3:45pm)&lt;br /&gt;
+Fellowship (3:45pm - 5:00pm)</event_description>
+                    <start_time>14:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>180</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Student Center</location>
+                    <group_name ccb_id="220">GPKC (Korean Church)</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="3807">SaeAll Cha</leader_name>
+                    <leader_phone>(469) 531-7996</leader_phone>
+                    <leader_email>csasjs@gmail.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-14</date>
+                    <event_name ccb_id="2633">Korean Fellowship</event_name>
+                    <event_description>Where? The LOFT&lt;br /&gt;
+&lt;br /&gt;
+Why? For fellowshiop of GP Korean Church.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;</event_description>
+                    <start_time>18:30:00</start_time>
+                    <end_time>23:45:00</end_time>
+                    <event_duration>315</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Loft (First Place-Ste 210)</location>
+                    <group_name ccb_id="220">GPKC (Korean Church)</group_name>
+                    <group_type>System</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="3807">SaeAll Cha</leader_name>
+                    <leader_phone>(469) 531-7996</leader_phone>
+                    <leader_email>csasjs@gmail.com</leader_email>
+               </item>
+               <item>
+                    <date>2018-01-15</date>
+                    <event_name ccb_id="703">Normal Office Hours</event_name>
+                    <event_description></event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>Office Suite</location>
+                    <group_name ccb_id="22">Approval Group: Facility Use</group_name>
+                    <group_type>Operations</group_type>
+                    <grouping_name>Operations</grouping_name>
+                    <leader_name ccb_id="6">Derek Robinson</leader_name>
+                    <leader_phone>(949) 306-6702</leader_phone>
+                    <leader_email></leader_email>
+               </item>
+               <item>
+                    <date>2018-01-15</date>
+                    <event_name ccb_id="2990">Ark Open to Public</event_name>
+                    <event_description>Ark will be open from 9:00 am - 5:00 pm.</event_description>
+                    <start_time>09:00:00</start_time>
+                    <end_time>17:00:00</end_time>
+                    <event_duration>480</event_duration>
+                    <event_type>Open To All</event_type>
+                    <location>The Ark</location>
+                    <group_name ccb_id="281">Ark Liability Waiver Signed</group_name>
+                    <group_type>Outreach</group_type>
+                    <grouping_name>Kids</grouping_name>
+                    <leader_name ccb_id="2918">Laci Garza</leader_name>
+                    <leader_phone>(972) 998-5784</leader_phone>
+                    <leader_email>lgarza@tranzvia.com</leader_email>
+               </item>
+          </items>
+     </response>
+</ccb_api>

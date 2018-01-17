@@ -34,13 +34,11 @@
         "angular2-moment": "^1.7.0",
         "audio-context-polyfill": "^1.0.0",
         "cordova-android": "^6.2.3",
-        "cordova-ios": "^4.4.0",
-        "cordova-plugin-add-swift-support": "^1.7.1",
+        "cordova-ios": "^4.5.4",
         "cordova-plugin-audioplayer": "https://github.com/AubreyHewes/cordova-background-audio.git#1.1.0",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-device": "^1.1.4",
         "cordova-plugin-file": "^4.3.3",
-        "cordova-plugin-ionic": "^2.0.4",
         "cordova-plugin-media": "^3.0.1",
         "cordova-plugin-splashscreen": "^4.0.3",
         "cordova-plugin-statusbar": "^2.2.2",
@@ -53,6 +51,8 @@
         "nl.x-services.plugins.backgroundaudio": "^1.0.1",
         "rxjs": "5.5.2",
         "sw-toolbox": "3.6.0",
+        "xml2js": "^0.4.19",
+        "xmlbuilder": "^9.0.4",
         "zone.js": "^0.8.18"
     },
     "devDependencies": {
@@ -71,18 +71,10 @@
             "cordova-plugin-media": {
                 "MICROPHONE_USAGE_DESCRIPTION": " "
             },
-            "nl.x-services.plugins.backgroundaudio": {},
-            "cordova-plugin-ionic": {
-                "APP_ID": "6fcb43a7",
-                "CHANNEL_NAME": "Master",
-                "UPDATE_METHOD": "auto",
-                "UPDATE_API": "https://api.ionicjs.com",
-                "MAX_STORE": "2"
-            }
+            "nl.x-services.plugins.backgroundaudio": {}
         },
         "platforms": [
-            "android",
-            "ios"
+            "android"
         ]
     }
 }
