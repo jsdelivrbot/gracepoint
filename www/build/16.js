@@ -1,1 +1,87 @@
-webpackJsonp([16],{381:function(l,n,e){"use strict";function u(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,null,null,20,"ion-header",[["no-border",""]],null,null,null,null,null)),t["ɵdid"](16384,null,0,p.a,[v.a,t.ElementRef,t.Renderer,[2,h.a]],null,null),(l()(),t["ɵted"](null,["\n\t"])),(l()(),t["ɵeld"](0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,R.b,R.a)),t["ɵdid"](49152,null,0,k.a,[y.a,[2,h.a],[2,C.a],v.a,t.ElementRef,t.Renderer],{color:[0,"color"]},null),(l()(),t["ɵted"](3,["\n\t\t"])),(l()(),t["ɵeld"](0,null,3,2,"ion-title",[["center",""]],null,null,null,_.b,_.a)),t["ɵdid"](49152,null,0,E.a,[v.a,t.ElementRef,t.Renderer,[2,D.a],[2,k.a]],null,null),(l()(),t["ɵted"](0,["Credits"])),(l()(),t["ɵted"](3,["\n\t\t"])),(l()(),t["ɵeld"](0,null,0,8,"button",[["icon-only",""],["ion-button",""],["menuToggle",""],["right",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var u=!0;if("click"===n){u=!1!==t["ɵnov"](l,12).toggle()&&u}return u},I.b,I.a)),t["ɵdid"](1097728,[[1,4]],0,V.a,[[8,""],v.a,t.ElementRef,t.Renderer],null,null),t["ɵdid"](1064960,null,0,w.a,[x.a,[2,h.a],[2,V.a],[2,k.a]],{menuToggle:[0,"menuToggle"]},null),t["ɵdid"](16384,null,1,T.a,[v.a,t.ElementRef,t.Renderer,[2,D.a],[2,k.a]],null,null),t["ɵqud"](603979776,1,{_buttons:1}),(l()(),t["ɵted"](0,["\n\t\t\t"])),(l()(),t["ɵeld"](0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t["ɵdid"](147456,null,0,K.a,[v.a,t.ElementRef,t.Renderer],{name:[0,"name"]},null),(l()(),t["ɵted"](0,["\n\t\t"])),(l()(),t["ɵted"](3,["\n\t"])),(l()(),t["ɵted"](null,["\n"])),(l()(),t["ɵted"](null,["\n\n"])),(l()(),t["ɵeld"](0,null,null,24,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,P.b,P.a)),t["ɵdid"](4374528,null,0,F.a,[v.a,L.a,O.a,t.ElementRef,t.Renderer,y.a,j.a,t.NgZone,[2,h.a],[2,C.a]],null,null),(l()(),t["ɵted"](1,["\n\t"])),(l()(),t["ɵeld"](0,null,1,0,"img",[["alt","threeleaf"],["src","assets/img/threeleaf.jpg"],["style","width: 100%;"]],null,null,null,null,null)),(l()(),t["ɵted"](1,["\n\t"])),(l()(),t["ɵeld"](0,null,1,18,"div",[["padding",""]],null,null,null,null,null)),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵeld"](0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),t["ɵted"](null,["ABOUT THREELEAF"])),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵeld"](0,null,null,3,"p",[],null,null,null,null,null)),(l()(),t["ɵted"](null,["It may sound pretty cliché, but we are all about you. Our number one goal is to help see our client's dreams become a reality.\n\t\t\tThe rules, values, and methods of advertising are changing everyday, but one thing never changes – your story and our\n\t\t\tpassion to help you tell it.\n\t\t\t"])),(l()(),t["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵeld"](0,null,null,3,"p",[],null,null,null,null,null)),(l()(),t["ɵted"](null,["We are a full-service ad agency specializing in re-branding and brand campaigns.\n\t\t\t"])),(l()(),t["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵted"](null,["\n\t\t"])),(l()(),t["ɵeld"](0,null,null,2,"a",[["href","http://www.threeleaf.net"],["ion-button",""],["target","_blank"]],null,null,null,I.b,I.a)),t["ɵdid"](1097728,null,0,V.a,[[8,""],v.a,t.ElementRef,t.Renderer],null,null),(l()(),t["ɵted"](0,["Visit Our Website"])),(l()(),t["ɵted"](null,["\n\t"])),(l()(),t["ɵted"](1,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,12,0,"");l(n,17,0,"menu")},function(l,n){l(n,3,0,t["ɵnov"](n,4)._hidden,t["ɵnov"](n,4)._sbPadding);l(n,10,0,t["ɵnov"](n,12).isHidden);l(n,16,0,t["ɵnov"](n,17)._hidden);l(n,22,0,t["ɵnov"](n,23).statusbarPadding,t["ɵnov"](n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=e(0),a=(e(4),e(53),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad CreditsPage")},l}()),d=function(){return function(){}}(),o=e(327),r=e(328),i=e(329),s=e(330),c=e(331),b=e(332),f=e(333),m=e(334),g=e(335),p=e(119),v=e(2),h=e(6),R=e(400),k=e(39),y=e(9),C=e(21),_=e(398),E=e(116),D=e(52),I=e(41),V=e(20),w=e(120),x=e(25),T=e(121),K=e(40),P=e(399),F=e(22),L=e(5),O=e(10),j=e(35),q=e(12),A=t["ɵcrt"]({encapsulation:2,styles:[],data:{}}),B=t["ɵccf"]("page-credits",a,function(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,null,null,1,"page-credits",[],null,null,null,u,A)),t["ɵdid"](49152,null,0,a,[C.a,q.a],null,null)],null,null)},{},{},[]),M=e(15),N=e(18),H=e(118),W=e(36);e.d(n,"CreditsPageModuleNgFactory",function(){return z});var z=t["ɵcmf"](d,[],function(l){return t["ɵmod"]([t["ɵmpd"](512,t.ComponentFactoryResolver,t["ɵCodegenComponentFactoryResolver"],[[8,[o.a,r.a,i.a,s.a,c.a,b.a,f.a,m.a,g.a,B]],[3,t.ComponentFactoryResolver],t.NgModuleRef]),t["ɵmpd"](4608,M.l,M.k,[t.LOCALE_ID]),t["ɵmpd"](4608,N.k,N.k,[]),t["ɵmpd"](4608,N.c,N.c,[]),t["ɵmpd"](512,M.b,M.b,[]),t["ɵmpd"](512,N.j,N.j,[]),t["ɵmpd"](512,N.d,N.d,[]),t["ɵmpd"](512,N.i,N.i,[]),t["ɵmpd"](512,H.a,H.a,[]),t["ɵmpd"](512,H.b,H.b,[]),t["ɵmpd"](512,d,d,[]),t["ɵmpd"](256,W.a,a,[])])})},398:function(l,n,e){"use strict";function u(l){return t["ɵvid"](2,[(l()(),t["ɵeld"](0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵncd"](null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}e.d(n,"a",function(){return d}),n.b=u;var t=e(0),a=e(15),d=t["ɵcrt"]({encapsulation:2,styles:[],data:{}})},399:function(l,n,e){"use strict";function u(l){return t["ɵvid"](2,[t["ɵqud"](402653184,1,{_fixedContent:0}),t["ɵqud"](402653184,2,{_scrollContent:0}),(l()(),t["ɵeld"](0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),t["ɵncd"](null,0),(l()(),t["ɵeld"](0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),t["ɵncd"](null,1),t["ɵncd"](null,2)],null,null)}e.d(n,"a",function(){return a}),n.b=u;var t=e(0),a=t["ɵcrt"]({encapsulation:2,styles:[],data:{}})},400:function(l,n,e){"use strict";function u(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t["ɵeld"](0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var u=!0;if("click"===n){u=!1!==l.component.backButtonClick(e)&&u}return u},d.b,d.a)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵdid"](1097728,null,0,o.a,[[8,"bar-button"],r.a,t.ElementRef,t.Renderer],null,null),(l()(),t["ɵeld"](0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵdid"](147456,null,0,i.a,[r.a,t.ElementRef,t.Renderer],{name:[0,"name"]},null),(l()(),t["ɵeld"](0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t["ɵted"](null,["",""])),t["ɵncd"](null,0),t["ɵncd"](null,1),t["ɵncd"](null,2),(l()(),t["ɵeld"](0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t["ɵdid"](278528,null,0,a.h,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵncd"](null,3)],function(l,n){var e=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+e._mode);l(n,3,0,"back-button","back-button-"+e._mode);l(n,6,0,"back-button-icon","back-button-icon-"+e._mode);l(n,7,0,e._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+e._mode);l(n,15,0,"toolbar-content","toolbar-content-"+e._mode)},function(l,n){var e=n.component;l(n,2,0,e._hideBb);l(n,5,0,t["ɵnov"](n,7)._hidden);l(n,10,0,e._backText)})}e.d(n,"a",function(){return s}),n.b=u;var t=e(0),a=e(15),d=e(41),o=e(20),r=e(2),i=e(40),s=t["ɵcrt"]({encapsulation:2,styles:[],data:{}})}});
+webpackJsonp([16],{
+
+/***/ 422:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreditsPageModule", function() { return CreditsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__credits__ = __webpack_require__(441);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CreditsPageModule = (function () {
+    function CreditsPageModule() {
+    }
+    return CreditsPageModule;
+}());
+CreditsPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__credits__["a" /* CreditsPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__credits__["a" /* CreditsPage */]),
+        ],
+    })
+], CreditsPageModule);
+
+//# sourceMappingURL=credits.module.js.map
+
+/***/ }),
+
+/***/ 441:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CreditsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CreditsPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CreditsPage = (function () {
+    function CreditsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CreditsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CreditsPage');
+    };
+    return CreditsPage;
+}());
+CreditsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-credits',template:/*ion-inline-start:"/Users/tonymccallie/Sites/gracepoint/src/pages/credits/credits.html"*/'<ion-header no-border>\n	<ion-navbar color="primary">\n		<ion-title center>Credits</ion-title>\n		<button ion-button icon-only menuToggle right>\n			<ion-icon name="menu"></ion-icon>\n		</button>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<img src="assets/img/threeleaf.jpg" alt="threeleaf" style="width: 100%;">\n	<div padding>\n		<h2>ABOUT THREELEAF</h2>\n		<p>It may sound pretty cliché, but we are all about you. Our number one goal is to help see our client\'s dreams become a reality.\n			The rules, values, and methods of advertising are changing everyday, but one thing never changes – your story and our\n			passion to help you tell it.\n			<br>\n		</p>\n		<p>We are a full-service ad agency specializing in re-branding and brand campaigns.\n			<br>\n		</p>\n		<a ion-button target="_blank" href="http://www.threeleaf.net">Visit Our Website</a>\n	</div>\n</ion-content>'/*ion-inline-end:"/Users/tonymccallie/Sites/gracepoint/src/pages/credits/credits.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+], CreditsPage);
+
+//# sourceMappingURL=credits.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=16.js.map

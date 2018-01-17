@@ -1,1 +1,143 @@
-webpackJsonp([13],{385:function(l,n,e){"use strict";function t(l){return u["ɵvid"](0,[(l()(),u["ɵeld"](0,null,null,20,"ion-header",[["no-border",""]],null,null,null,null,null)),u["ɵdid"](16384,null,0,g.a,[p.a,u.ElementRef,u.Renderer,[2,v.a]],null,null),(l()(),u["ɵted"](null,["\n\t"])),(l()(),u["ɵeld"](0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,w.b,w.a)),u["ɵdid"](49152,null,0,y.a,[k.a,[2,v.a],[2,R.a],p.a,u.ElementRef,u.Renderer],{color:[0,"color"]},null),(l()(),u["ɵted"](3,["\n\t\t"])),(l()(),u["ɵeld"](0,null,3,2,"ion-title",[["center",""]],null,null,null,C.b,C.a)),u["ɵdid"](49152,null,0,E.a,[p.a,u.ElementRef,u.Renderer,[2,G.a],[2,y.a]],null,null),(l()(),u["ɵted"](0,["Jesus"])),(l()(),u["ɵted"](3,["\n\t\t"])),(l()(),u["ɵeld"](0,null,0,8,"button",[["icon-only",""],["ion-button",""],["menuToggle",""],["right",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var t=!0;if("click"===n){t=!1!==u["ɵnov"](l,12).toggle()&&t}return t},_.b,_.a)),u["ɵdid"](1097728,[[1,4]],0,T.a,[[8,""],p.a,u.ElementRef,u.Renderer],null,null),u["ɵdid"](1064960,null,0,H.a,[D.a,[2,v.a],[2,T.a],[2,y.a]],{menuToggle:[0,"menuToggle"]},null),u["ɵdid"](16384,null,1,I.a,[p.a,u.ElementRef,u.Renderer,[2,G.a],[2,y.a]],null,null),u["ɵqud"](603979776,1,{_buttons:1}),(l()(),u["ɵted"](0,["\n\t\t\t"])),(l()(),u["ɵeld"](0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u["ɵdid"](147456,null,0,J.a,[p.a,u.ElementRef,u.Renderer],{name:[0,"name"]},null),(l()(),u["ɵted"](0,["\n\t\t"])),(l()(),u["ɵted"](3,["\n\t"])),(l()(),u["ɵted"](null,["\n"])),(l()(),u["ɵted"](null,["\n\n"])),(l()(),u["ɵeld"](0,null,null,31,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,N.b,N.a)),u["ɵdid"](4374528,null,0,O.a,[p.a,S.a,x.a,u.ElementRef,u.Renderer,k.a,V.a,u.NgZone,[2,v.a],[2,R.a]],null,null),(l()(),u["ɵted"](1,["\n\t"])),(l()(),u["ɵeld"](0,null,1,0,"img",[["src","assets/img/bible.jpg"]],null,null,null,null,null)),(l()(),u["ɵted"](1,["\n\t"])),(l()(),u["ɵeld"](0,null,1,25,"div",[["padding",""]],null,null,null,null,null)),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["LEARN ABOUT JESUS"])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["God created you to be in perfect relationship with Him, but our sins fracture that relationship and separate us from Him.\n\t\t\tWe can only be forgiven and reconciled back to God through a relationship with His Son, Jesus Christ. We want to help\n\t\t\tyou learn more about what Jesus has done for you and how He wants to be part of your life."])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["CREATION & SEPARATION"])),(l()(),u["ɵted"](null,["\n\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["God made the world and He created humanity. Man was in relationship with God for the glory of God and to experience God’s\n\t\t\tlove. There was no disease, death, shame, or sorrow. Loving God was at the core of all things and it was good and moral.\n\t\t\tHowever, that all changed when man used the free will God had so graciously provided to disobey God. That moment of disobedience,\n\t\t\tor the fall, is when sin came into the world. With sin came selfishness and crimes against God. Sin also broke man’s perfect\n\t\t\tfellowship with God and brought death into the world. These sins separate us from a perfect and holy God."])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["SIN & FORGIVENESS"])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["Our sin is the problem that corrupts the world and everything in it and we are powerless to overcome our sin apart from\n\t\t\tJesus Christ. Our attempts to control the situation only increase the chaos around us and within us. That is why we need\n\t\t\thealing from sin. In spite of our sin, we can know God and be healed back into a right relationship with Him. You can\n\t\t\tknow God personally. The Creator of the universe made you and wants an intimate relationship with you. Jesus is the gift\n\t\t\tthat offers us forgiveness and relationship with God. The way to know the Father is through His Son: “I am the way and\n\t\t\tthe truth and the life. No one comes to the Father except through Me” John 14:6."])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["THE GOOD NEWS"])),(l()(),u["ɵted"](null,["\n\t\t"])),(l()(),u["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),u["ɵted"](null,["The Gospel literally translates as the “good news.” Good news usually comes when something is wrong and we need someone\n\t\t\tor something to change our circumstances. In our case, sin is the problem that corrupts our hearts, the world and everything\n\t\t\tin it. We are powerless to overcome that problem apart from Christ. In other words, we can’t earn our own forgiveness\n\t\t\tor salvation. However, that is where Jesus comes into our lives. He lived a perfect life and died as a sacrifice for our\n\t\t\tsins. He rose from the grave to conquer sin and death. Through his sacrifice He offers us forgiveness and eternal life\n\t\t\twith Him. This is a gift offered to each of us out of His love for us. That is the Good News – that Jesus loves us so\n\t\t\tmuch He offers us forgiveness of our sins and his spirit to help us change how we live. This healing is only by grace\n\t\t\talone, through faith alone, in Christ alone."])),(l()(),u["ɵted"](null,["\n\t"])),(l()(),u["ɵted"](1,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,12,0,"");l(n,17,0,"menu")},function(l,n){l(n,3,0,u["ɵnov"](n,4)._hidden,u["ɵnov"](n,4)._sbPadding);l(n,10,0,u["ɵnov"](n,12).isHidden);l(n,16,0,u["ɵnov"](n,17)._hidden);l(n,22,0,u["ɵnov"](n,23).statusbarPadding,u["ɵnov"](n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var u=e(0),o=(e(4),e(53),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad JesusPage")},l}()),a=function(){return function(){}}(),s=e(327),r=e(328),d=e(329),i=e(330),c=e(331),h=e(332),f=e(333),m=e(334),b=e(335),g=e(119),p=e(2),v=e(6),w=e(400),y=e(39),k=e(9),R=e(21),C=e(398),E=e(116),G=e(52),_=e(41),T=e(20),H=e(120),D=e(25),I=e(121),J=e(40),N=e(399),O=e(22),S=e(5),x=e(10),V=e(35),F=e(12),P=u["ɵcrt"]({encapsulation:2,styles:[],data:{}}),j=u["ɵccf"]("page-jesus",o,function(l){return u["ɵvid"](0,[(l()(),u["ɵeld"](0,null,null,1,"page-jesus",[],null,null,null,t,P)),u["ɵdid"](49152,null,0,o,[R.a,F.a],null,null)],null,null)},{},{},[]),A=e(15),K=e(18),L=e(118),M=e(36);e.d(n,"JesusPageModuleNgFactory",function(){return W});var W=u["ɵcmf"](a,[],function(l){return u["ɵmod"]([u["ɵmpd"](512,u.ComponentFactoryResolver,u["ɵCodegenComponentFactoryResolver"],[[8,[s.a,r.a,d.a,i.a,c.a,h.a,f.a,m.a,b.a,j]],[3,u.ComponentFactoryResolver],u.NgModuleRef]),u["ɵmpd"](4608,A.l,A.k,[u.LOCALE_ID]),u["ɵmpd"](4608,K.k,K.k,[]),u["ɵmpd"](4608,K.c,K.c,[]),u["ɵmpd"](512,A.b,A.b,[]),u["ɵmpd"](512,K.j,K.j,[]),u["ɵmpd"](512,K.d,K.d,[]),u["ɵmpd"](512,K.i,K.i,[]),u["ɵmpd"](512,L.a,L.a,[]),u["ɵmpd"](512,L.b,L.b,[]),u["ɵmpd"](512,a,a,[]),u["ɵmpd"](256,M.a,o,[])])})},398:function(l,n,e){"use strict";function t(l){return u["ɵvid"](2,[(l()(),u["ɵeld"](0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u["ɵncd"](null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}e.d(n,"a",function(){return a}),n.b=t;var u=e(0),o=e(15),a=u["ɵcrt"]({encapsulation:2,styles:[],data:{}})},399:function(l,n,e){"use strict";function t(l){return u["ɵvid"](2,[u["ɵqud"](402653184,1,{_fixedContent:0}),u["ɵqud"](402653184,2,{_scrollContent:0}),(l()(),u["ɵeld"](0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),u["ɵncd"](null,0),(l()(),u["ɵeld"](0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),u["ɵncd"](null,1),u["ɵncd"](null,2)],null,null)}e.d(n,"a",function(){return o}),n.b=t;var u=e(0),o=u["ɵcrt"]({encapsulation:2,styles:[],data:{}})},400:function(l,n,e){"use strict";function t(l){return u["ɵvid"](0,[(l()(),u["ɵeld"](0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),u["ɵeld"](0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var t=!0;if("click"===n){t=!1!==l.component.backButtonClick(e)&&t}return t},a.b,a.a)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u["ɵdid"](1097728,null,0,s.a,[[8,"bar-button"],r.a,u.ElementRef,u.Renderer],null,null),(l()(),u["ɵeld"](0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u["ɵdid"](147456,null,0,d.a,[r.a,u.ElementRef,u.Renderer],{name:[0,"name"]},null),(l()(),u["ɵeld"](0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),u["ɵted"](null,["",""])),u["ɵncd"](null,0),u["ɵncd"](null,1),u["ɵncd"](null,2),(l()(),u["ɵeld"](0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),u["ɵdid"](278528,null,0,o.h,[u.IterableDiffers,u.KeyValueDiffers,u.ElementRef,u.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u["ɵncd"](null,3)],function(l,n){var e=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+e._mode);l(n,3,0,"back-button","back-button-"+e._mode);l(n,6,0,"back-button-icon","back-button-icon-"+e._mode);l(n,7,0,e._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+e._mode);l(n,15,0,"toolbar-content","toolbar-content-"+e._mode)},function(l,n){var e=n.component;l(n,2,0,e._hideBb);l(n,5,0,u["ɵnov"](n,7)._hidden);l(n,10,0,e._backText)})}e.d(n,"a",function(){return i}),n.b=t;var u=e(0),o=e(15),a=e(41),s=e(20),r=e(2),d=e(40),i=u["ɵcrt"]({encapsulation:2,styles:[],data:{}})}});
+webpackJsonp([13],{
+
+/***/ 425:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(444);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var HomePageModule = (function () {
+    function HomePageModule() {
+    }
+    return HomePageModule;
+}());
+HomePageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */]),
+        ],
+    })
+], HomePageModule);
+
+//# sourceMappingURL=home.module.js.map
+
+/***/ }),
+
+/***/ 444:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_greyback_greyback__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_shared_module__ = __webpack_require__(335);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, navParams, greybackProvider, shared) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.greybackProvider = greybackProvider;
+        this.shared = shared;
+        this.rootUrl = greybackProvider.rootUrl;
+        console.log('contructor HomePage');
+    }
+    HomePage.prototype.ionViewDidLoad = function () {
+        //fired if not cached
+        console.log('ionViewDidLoad HomePage');
+    };
+    HomePage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        //fired every time
+        console.log('ionViewWillEnter HomePage');
+        this.greybackProvider.getNews().subscribe(function (news) {
+            _this.news = news.data;
+        });
+        this.greybackProvider.getCommunity().subscribe(function (posts) {
+            _this.posts = posts.data;
+        });
+        // this.greybackProvider.getCalendars().subscribe(results => {
+        // 	console.log(results);
+        // }, msg => console.error(`ErrorFOO: ${msg.status} ${msg.statusText}`));
+    };
+    HomePage.prototype.ionViewDidEnter = function () {
+        //fired every time
+        console.log('ionViewDidEnter HomePage');
+    };
+    HomePage.prototype.viewArticle = function (article) {
+        this.navCtrl.push('ArticleDetailPage', {
+            article: article,
+            articleId: article.NewsArticle.id
+        });
+    };
+    HomePage.prototype.viewPost = function (post) {
+        this.navCtrl.push('PostDetailPage', {
+            post: post,
+            postId: post.CommunityPost.id
+        });
+    };
+    HomePage.prototype.doRefresh = function (refresher) {
+        console.log('doRefresh');
+        setTimeout(function () {
+            console.log('Async operation has ended');
+            refresher.complete();
+        }, 2000);
+    };
+    HomePage.prototype.doInfinite = function (infiniteScroll) {
+        console.log('Begin async operation');
+        // setTimeout(() => {
+        // 	for (let i = 0; i < 30; i++) {
+        // 		this.news.push({title:'test',body:'test'});
+        // 	}
+        // 	console.log('Async operation has ended');
+        // 	infiniteScroll.complete();
+        // }, 500);
+    };
+    return HomePage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Slides */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Slides */])
+], HomePage.prototype, "slides", void 0);
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/tonymccallie/Sites/gracepoint/src/pages/home/home.html"*/'<ion-header no-border>\n	<ion-navbar color="primary">\n		<ion-title start><img src="assets/logo.svg" class="logo"></ion-title>\n		<button ion-button icon-only menuToggle right><ion-icon name="menu"></ion-icon></button>\n	</ion-navbar>\n</ion-header>\n\n<ion-content class="card-background-page">\n	<ion-slides autoplay="5000" loop="true" *ngIf="news && news.length">\n		<ion-slide *ngFor="let article of news" (click)="viewArticle(article)">\n			<img src="{{rootUrl}}/img/thumb/{{article.MediaImage.filename}}/width:1000/height:600/crop:true/zoom:auto" />\n		</ion-slide>\n	</ion-slides>\n	<ion-toolbar color="primary">\n		Community Feed\n	</ion-toolbar>\n	<!-- <ion-refresher (ionRefresh)="doRefresh($event)">\n		<ion-refresher-content></ion-refresher-content>\n	</ion-refresher> -->\n	<ion-card *ngFor="let post of posts; let i = index">\n		<img *ngIf="post.CommunityPost.type!=\'gallery\'" src="{{rootUrl}}/img/thumb/{{post.MediaImage.filename}}/width:1000/height:600/crop:true/zoom:auto" />\n		<div *ngIf="post.CommunityPost.type==\'gallery\'">\n			<ion-slides autoplay="5000" loop="true" *ngIf="post.CommunityPicture && post.CommunityPicture.length">\n				<ion-slide *ngFor="let picture of post.CommunityPicture">\n					<img src="{{rootUrl}}/img/thumb/{{picture.MediaImage.filename}}/width:1000/height:600/crop:true/zoom:auto" />\n				</ion-slide>\n			</ion-slides>\n		</div>\n		<ion-card-content>\n			<ion-card-title>{{post.CommunityPost.title}}</ion-card-title>\n			<div [innerHTML]="post.CommunityPost.body"></div>\n			<!-- <pre>{{post | json}}</pre> -->\n		</ion-card-content>\n	</ion-card>\n	<!-- <ion-infinite-scroll (ionInfinite)="doInfinite($event)">\n		<ion-infinite-scroll-content></ion-infinite-scroll-content>\n	</ion-infinite-scroll> -->\n</ion-content>'/*ion-inline-end:"/Users/tonymccallie/Sites/gracepoint/src/pages/home/home.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_greyback_greyback__["a" /* GreybackProvider */], __WEBPACK_IMPORTED_MODULE_3__app_shared_module__["a" /* SharedModule */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=13.js.map

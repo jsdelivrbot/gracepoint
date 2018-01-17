@@ -1,1 +1,847 @@
-webpackJsonp([19],{117:function(e,t,a){"use strict";a.d(t,"a",function(){return r});a(4);var o=a(55),n=a(196),s=(a.n(n),a(1)),r=(a.n(s),function(){function e(e,t){this.http=e,this.httpClient=t,this.rootUrl="http://fbcwf.server3.greyback.net/",this.headers=new o.d,console.log("Hello GreybackProvider Provider"),this.headers.append("Accept","application/json"),this.headers.append("Content-Type","application/json"),this.headers.append("Authorization","Basic "+btoa("patrickkemp:Three3leaf")),this.opts=new o.g({headers:this.headers})}return e.prototype.getNews=function(){return this.http.get(this.rootUrl+"/ajax/plugin/news/news_articles/json/limit:4/category:1").map(function(e){return e.json()})},e.prototype.getCommunity=function(){return this.http.get(this.rootUrl+"/ajax/plugin/community/community_posts/latest/department:1").map(function(e){return e.json()})},e.prototype.getSeries=function(){return this.http.get(this.rootUrl+"/ajax/plugin/message/message_series/json/category:1").map(function(e){return e.json()})},e.prototype.getSeriesById=function(e){return this.http.get(this.rootUrl+"/ajax/plugin/message/message_messages/json/series:"+e).map(function(e){return e.json()})},e.prototype.getLatestSermon=function(){return this.http.get(this.rootUrl+"/ajax/plugin/message/message_messages/json/limit:1/category:1").map(function(e){return e.json()})},e.prototype.getEvents=function(){return this.http.get(this.rootUrl+"/ajax/plugin/news/news_articles/json/limit:10/category:3").map(function(e){return e.json()})},e.prototype.getStaff=function(){return this.http.get(this.rootUrl+"/ajax/plugin/staff/staff_departments/json/department:1").map(function(e){return e.json()})},e.prototype.getCalendars=function(){return this.http.get("https://secure.accessacs.com/api_accessacs_mobile/v2/10413/calendars",this.opts).map(function(e){return e.json()})},e.prototype.getCalendar=function(e){var t=this;return new Promise(function(e){t.httpClient.get("http://api.serviceu.com/rest/events/occurrences/search?orgKey=9ccb6bd6-c8f2-4e89-8b1e-b8cfbc85c19d&format=json").subscribe(function(t){e(t)},function(a){t.httpClient.get("assets/search.json").subscribe(function(t){e(t)},function(e){console.warn(["getCalendar",e])})})})},e.prototype.getCalendarX=function(e){var t=s().format("YYYY/MM/DD"),a=s().add(90,"days").format("YYYY/MM/DD");return this.http.get("https://secure.accessacs.com/api_accessacs_mobile/v2/10413/events?&startdate="+t+"&stopdate="+a+"&pageIndex="+e+"&pageSize=50&calendarids=58c08c0d-776d-4762-8180-0df5fcf1ae74",this.opts).map(function(e){return e.json()})},e.prototype.getEvent=function(e){return this.http.get("https://secure.accessacs.com/api_accessacs_mobile/v2/10413/events/"+e,this.opts).map(function(e){return e.json()})},e}())},122:function(e,t,a){"use strict";a.d(t,"a",function(){return n});a(4),a(53);var o=a(315),n=(a.n(o),function(){return function(){}}())},123:function(e,t,a){"use strict";a.d(t,"a",function(){return n});a(4);var o=a(196),n=(a.n(o),a(53),function(){function e(e,t){this.http=e,this.alertCtrl=t,this.playing=!1,this.loading=!0,this.current=0,this.duration=0,this.percentage=0,this.title="",this.speaker="";var a=this;this.player=new Audio,this.player.ontimeupdate=function(e){a.current=new Date(1970,0,1).setSeconds(e.srcElement.currentTime),a.duration=new Date(1970,0,1).setSeconds(e.srcElement.duration),a.percentage=Math.round(e.srcElement.currentTime/e.srcElement.duration*100)},this.player.onprogress=function(e){console.log(["onprogress",e])},this.player.oncanplay=function(e){console.log(["oncanplay",e])},this.player.oncanplaythrough=function(e){a.loading=!1,console.log(["oncanplaythrough",e])},this.player.onstalled=function(e){console.log(["onstalled",e])},this.player.onabort=function(e){console.log(["onabort",e])},this.player.onerror=function(e){a.alertCtrl.create({title:"Oh no!",subTitle:"There was an error trying to load the audio file. You might try again later or listen to a different one.",buttons:["Ok"]}).present(),a.playing=!1,a.loading=!0,a.title="",console.log(["onerror",e])},this.player.onloadstart=function(e){console.log(["onloadstart",e])},this.player.onplaying=function(e){console.log(["onplaying",e])},this.player.onplay=function(e){console.log(["onplay",e])},this.player.onpause=function(e){console.log(["onpause",e])}}return e.prototype.play=function(e){this.playing=!0,this.loading=!0,this.title=e.title,this.speaker=e.speaker,this.player.src=e.url+"/file.mp3",this.player.load(),this.player.play()},e.prototype.pause=function(){this.playing?(this.player.pause(),this.playing=!1):(this.player.play(),this.playing=!0)},e.prototype.scrub=function(e){this.player.currentTime=e.value/100*this.player.duration},e}())},154:function(e,t){function a(e){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+e+"'.")})}a.keys=function(){return[]},a.resolve=a,e.exports=a,a.id=154},177:function(e,t,a){function o(e){var t=n[e];return t?a.e(t[1]).then(function(){return a(t[0])}):Promise.reject(new Error("Cannot find module '"+e+"'."))}var n={"../pages/about/about.module.ngfactory":[379,17],"../pages/article-detail/article-detail.module.ngfactory":[380,6],"../pages/credits/credits.module.ngfactory":[381,16],"../pages/event-detail/event-detail.module.ngfactory":[382,15],"../pages/events/events.module.ngfactory":[383,14],"../pages/home/home.module.ngfactory":[384,5],"../pages/jesus/jesus.module.ngfactory":[385,13],"../pages/location/location.module.ngfactory":[386,12],"../pages/menu/menu.module.ngfactory":[387,7],"../pages/post-detail/post-detail.module.ngfactory":[388,4],"../pages/prayer/prayer.module.ngfactory":[389,11],"../pages/resources/resources.module.ngfactory":[390,10],"../pages/series/series.module.ngfactory":[391,3],"../pages/sermon/sermon.module.ngfactory":[392,2],"../pages/sermons/sermons.module.ngfactory":[393,1],"../pages/staff/staff.module.ngfactory":[394,9],"../pages/stories/stories.module.ngfactory":[395,0],"../pages/tabs/tabs.module.ngfactory":[396,18],"../pages/times/times.module.ngfactory":[397,8]};o.keys=function(){return Object.keys(n)},o.id=177,e.exports=o},338:function(e,t,a){"use strict";function o(e){return s["ɵvid"](0,[(e()(),s["ɵeld"](0,null,null,2,"ion-nav",[],null,null,null,F.b,F.a)),s["ɵprd"](6144,null,z.a,null,[H.a]),s["ɵdid"](4374528,null,0,H.a,[[2,I.a],[2,E.a],A.a,S.a,_.a,s.ElementRef,s.NgZone,s.Renderer,s.ComponentFactoryResolver,D.l,R.a,[2,T.a],x.a,s.ErrorHandler],{root:[0,"root"]},null),(e()(),s["ɵted"](null,["\n"]))],function(e,t){e(t,2,0,t.component.rootPage)},null)}Object.defineProperty(t,"__esModule",{value:!0});var n=a(28),s=a(0),r=(a(4),a(55)),i=(a(53),a(71)),l=a(72),d=a(135),p=(a(315),function(){return function(e,t,a){this.rootPage="MenuPage",e.ready().then(function(){t.styleDefault(),a.hide()})}}()),u=a(122),c=a(117),m=a(123),g=a(114),f=a(378),y=(f.Pro.init("2191a4b0",{appVersion:"1.0.0"}),function(){return function(){}}()),j=a(47),h=a(327),b=a(328),v=a(329),P=a(330),C=a(331),k=a(332),w=a(333),M=a(334),N=a(335),F=a(337),z=a(33),H=a(44),I=a(6),E=a(21),A=a(9),S=a(2),_=a(5),D=a(8),R=a(26),T=a(14),x=a(10),O=s["ɵcrt"]({encapsulation:2,styles:[],data:{}}),L=s["ɵccf"]("ng-component",p,function(e){return s["ɵvid"](0,[(e()(),s["ɵeld"](0,null,null,1,"ng-component",[],null,null,null,o,O)),s["ɵdid"](49152,null,0,p,[_.a,l.a,i.a],null,null)],null,null)},{},{},[]),Y=a(15),Z=a(97),U=a(18),K=a(88),X=a(90),q=a(96),J=a(16),B=a(27),V=a(35),G=a(77),Q=a(118),W=a(49),$=a(36),ee=a(101),te=a(60),ae=a(105),oe=a(99),ne=a(110),se=a(326),re=a(98),ie=a(25),le=a(95),de=a(100),pe=a(125),ue=s["ɵcmf"](y,[j.b],function(e){return s["ɵmod"]([s["ɵmpd"](512,s.ComponentFactoryResolver,s["ɵCodegenComponentFactoryResolver"],[[8,[h.a,b.a,v.a,P.a,C.a,k.a,w.a,M.a,N.a,L]],[3,s.ComponentFactoryResolver],s.NgModuleRef]),s["ɵmpd"](5120,s.LOCALE_ID,s["ɵm"],[[3,s.LOCALE_ID]]),s["ɵmpd"](4608,Y.l,Y.k,[s.LOCALE_ID]),s["ɵmpd"](5120,s.APP_ID,s["ɵf"],[]),s["ɵmpd"](5120,s.IterableDiffers,s["ɵk"],[]),s["ɵmpd"](5120,s.KeyValueDiffers,s["ɵl"],[]),s["ɵmpd"](4608,n.c,n.s,[Y.c]),s["ɵmpd"](6144,s.Sanitizer,null,[n.c]),s["ɵmpd"](4608,n.f,Z.a,[]),s["ɵmpd"](5120,n.d,function(e,t,a,o){return[new n.l(e),new n.p(t),new n.o(a,o)]},[Y.c,Y.c,Y.c,n.f]),s["ɵmpd"](4608,n.e,n.e,[n.d,s.NgZone]),s["ɵmpd"](135680,n.n,n.n,[Y.c]),s["ɵmpd"](4608,n.m,n.m,[n.e,n.n]),s["ɵmpd"](6144,s.RendererFactory2,null,[n.m]),s["ɵmpd"](6144,n.q,null,[n.n]),s["ɵmpd"](4608,s.Testability,s.Testability,[s.NgZone]),s["ɵmpd"](4608,n.h,n.h,[Y.c]),s["ɵmpd"](4608,n.j,n.j,[Y.c]),s["ɵmpd"](4608,r.c,r.c,[]),s["ɵmpd"](4608,r.h,r.b,[]),s["ɵmpd"](5120,r.j,r.k,[]),s["ɵmpd"](4608,r.i,r.i,[r.c,r.h,r.j]),s["ɵmpd"](4608,r.g,r.a,[]),s["ɵmpd"](5120,r.e,r.l,[r.i,r.g]),s["ɵmpd"](4608,U.k,U.k,[]),s["ɵmpd"](4608,U.c,U.c,[]),s["ɵmpd"](4608,g.h,g.m,[Y.c,s.PLATFORM_ID,g.k]),s["ɵmpd"](4608,g.n,g.n,[g.h,g.l]),s["ɵmpd"](5120,g.a,function(e){return[e]},[g.n]),s["ɵmpd"](4608,g.j,g.j,[]),s["ɵmpd"](6144,g.i,null,[g.j]),s["ɵmpd"](4608,g.g,g.g,[g.i]),s["ɵmpd"](6144,g.b,null,[g.g]),s["ɵmpd"](5120,g.f,g.o,[g.b,[2,g.a]]),s["ɵmpd"](4608,g.c,g.c,[g.f]),s["ɵmpd"](4608,K.a,K.a,[A.a,S.a]),s["ɵmpd"](4608,X.a,X.a,[A.a,S.a]),s["ɵmpd"](4608,q.a,q.a,[]),s["ɵmpd"](4608,J.a,J.a,[]),s["ɵmpd"](4608,B.a,B.a,[_.a]),s["ɵmpd"](4608,V.a,V.a,[S.a,_.a,s.NgZone,x.a]),s["ɵmpd"](4608,G.a,G.a,[A.a,S.a]),s["ɵmpd"](5120,Y.g,Q.c,[Y.r,[2,Y.a],S.a]),s["ɵmpd"](4608,Y.f,Y.f,[Y.g]),s["ɵmpd"](5120,W.b,W.d,[A.a,W.a]),s["ɵmpd"](5120,T.a,T.b,[A.a,W.b,Y.f,$.b,s.ComponentFactoryResolver]),s["ɵmpd"](4608,ee.a,ee.a,[A.a,S.a,T.a]),s["ɵmpd"](4608,te.a,te.a,[A.a,S.a]),s["ɵmpd"](4608,ae.a,ae.a,[A.a,S.a,T.a]),s["ɵmpd"](4608,oe.a,oe.a,[S.a,_.a,x.a,A.a,D.l]),s["ɵmpd"](4608,ne.a,ne.a,[A.a,S.a]),s["ɵmpd"](4608,R.a,R.a,[_.a,S.a]),s["ɵmpd"](4608,l.a,l.a,[]),s["ɵmpd"](4608,i.a,i.a,[]),s["ɵmpd"](4608,c.a,c.a,[r.e,g.c]),s["ɵmpd"](4608,m.a,m.a,[r.e,X.a]),s["ɵmpd"](4608,d.a,d.a,[]),s["ɵmpd"](512,Y.b,Y.b,[]),s["ɵmpd"](512,s.ErrorHandler,se.a,[]),s["ɵmpd"](256,S.b,{mode:"ios"},[]),s["ɵmpd"](1024,re.a,re.b,[]),s["ɵmpd"](1024,_.a,_.b,[n.b,re.a,s.NgZone]),s["ɵmpd"](1024,S.a,S.c,[S.b,_.a]),s["ɵmpd"](512,x.a,x.a,[_.a]),s["ɵmpd"](512,ie.a,ie.a,[]),s["ɵmpd"](512,A.a,A.a,[S.a,_.a,[2,ie.a]]),s["ɵmpd"](512,D.l,D.l,[A.a]),s["ɵmpd"](256,W.a,{links:[{loadChildren:"../pages/about/about.module.ngfactory#AboutPageModuleNgFactory",name:"AboutPage",segment:"about",priority:"low",defaultHistory:[]},{loadChildren:"../pages/article-detail/article-detail.module.ngfactory#ArticleDetailPageModuleNgFactory",name:"ArticleDetailPage",segment:"article/:articleId",priority:"low",defaultHistory:[]},{loadChildren:"../pages/credits/credits.module.ngfactory#CreditsPageModuleNgFactory",name:"CreditsPage",segment:"credits",priority:"low",defaultHistory:[]},{loadChildren:"../pages/event-detail/event-detail.module.ngfactory#EventDetailPageModuleNgFactory",name:"EventDetailPage",segment:"event/:eventId",priority:"low",defaultHistory:[]},{loadChildren:"../pages/events/events.module.ngfactory#EventsPageModuleNgFactory",name:"EventsPage",segment:"events",priority:"low",defaultHistory:[]},{loadChildren:"../pages/home/home.module.ngfactory#HomePageModuleNgFactory",name:"HomePage",segment:"home",priority:"low",defaultHistory:[]},{loadChildren:"../pages/jesus/jesus.module.ngfactory#JesusPageModuleNgFactory",name:"JesusPage",segment:"jesus",priority:"low",defaultHistory:[]},{loadChildren:"../pages/location/location.module.ngfactory#LocationPageModuleNgFactory",name:"LocationPage",segment:"location",priority:"low",defaultHistory:[]},{loadChildren:"../pages/menu/menu.module.ngfactory#MenuPageModuleNgFactory",name:"MenuPage",segment:"menu",priority:"low",defaultHistory:[]},{loadChildren:"../pages/post-detail/post-detail.module.ngfactory#PostDetailPageModuleNgFactory",name:"PostDetailPage",segment:"post/:postId",priority:"low",defaultHistory:[]},{loadChildren:"../pages/prayer/prayer.module.ngfactory#PrayerPageModuleNgFactory",name:"PrayerPage",segment:"prayer",priority:"low",defaultHistory:[]},{loadChildren:"../pages/resources/resources.module.ngfactory#ResourcesPageModuleNgFactory",name:"ResourcesPage",segment:"resources",priority:"low",defaultHistory:[]},{loadChildren:"../pages/series/series.module.ngfactory#SeriesPageModuleNgFactory",name:"SeriesPage",segment:"series",priority:"low",defaultHistory:[]},{loadChildren:"../pages/sermon/sermon.module.ngfactory#SermonPageModuleNgFactory",name:"SermonPage",segment:"sermon",priority:"low",defaultHistory:[]},{loadChildren:"../pages/sermons/sermons.module.ngfactory#SermonsPageModuleNgFactory",name:"SermonsPage",segment:"sermons/:seriesId",priority:"low",defaultHistory:[]},{loadChildren:"../pages/staff/staff.module.ngfactory#StaffPageModuleNgFactory",name:"StaffPage",segment:"staff",priority:"low",defaultHistory:[]},{loadChildren:"../pages/stories/stories.module.ngfactory#StoriesPageModuleNgFactory",name:"StoriesPage",segment:"stories",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tabs/tabs.module.ngfactory#TabsPageModuleNgFactory",name:"TabsPage",segment:"tabs",priority:"low",defaultHistory:[]},{loadChildren:"../pages/times/times.module.ngfactory#TimesPageModuleNgFactory",name:"TimesPage",segment:"times",priority:"low",defaultHistory:[]}]},[]),s["ɵmpd"](512,s.Compiler,s.Compiler,[]),s["ɵmpd"](512,le.a,le.a,[s.Compiler]),s["ɵmpd"](1024,$.b,$.c,[le.a,s.Injector]),s["ɵmpd"](1024,s.APP_INITIALIZER,function(e,t,a,o,s,r,i,l,d,p,u,c,m,g){return[n.r(e,t),de.a(a),q.b(o,s),oe.b(r,i,l,d,p),$.d(u,c,m,g)]},[[2,n.i],[2,s.NgProbeToken],S.a,_.a,x.a,S.a,_.a,x.a,A.a,D.l,S.a,W.a,$.b,s.NgZone]),s["ɵmpd"](512,s.ApplicationInitStatus,s.ApplicationInitStatus,[[2,s.APP_INITIALIZER]]),s["ɵmpd"](131584,s["ɵe"],s["ɵe"],[s.NgZone,s["ɵConsole"],s.Injector,s.ErrorHandler,s.ComponentFactoryResolver,s.ApplicationInitStatus]),s["ɵmpd"](2048,s.ApplicationRef,null,[s["ɵe"]]),s["ɵmpd"](512,s.ApplicationModule,s.ApplicationModule,[s.ApplicationRef]),s["ɵmpd"](512,n.a,n.a,[[3,n.a]]),s["ɵmpd"](512,r.f,r.f,[]),s["ɵmpd"](512,U.j,U.j,[]),s["ɵmpd"](512,U.d,U.d,[]),s["ɵmpd"](512,U.i,U.i,[]),s["ɵmpd"](512,Q.a,Q.a,[]),s["ɵmpd"](512,pe.MomentModule,pe.MomentModule,[]),s["ɵmpd"](512,u.a,u.a,[]),s["ɵmpd"](512,g.e,g.e,[]),s["ɵmpd"](512,g.d,g.d,[]),s["ɵmpd"](512,y,y,[]),s["ɵmpd"](256,g.k,"XSRF-TOKEN",[]),s["ɵmpd"](256,g.l,"X-XSRF-TOKEN",[]),s["ɵmpd"](256,j.a,p,[]),s["ɵmpd"](256,Y.a,"/",[])])});Object(s.enableProdMode)(),Object(n.k)().bootstrapModuleFactory(ue)},371:function(e,t,a){function o(e){return a(n(e))}function n(e){var t=s[e];if(!(t+1))throw new Error("Cannot find module '"+e+"'.");return t}var s={"./af":197,"./af.js":197,"./ar":198,"./ar-dz":199,"./ar-dz.js":199,"./ar-kw":200,"./ar-kw.js":200,"./ar-ly":201,"./ar-ly.js":201,"./ar-ma":202,"./ar-ma.js":202,"./ar-sa":203,"./ar-sa.js":203,"./ar-tn":204,"./ar-tn.js":204,"./ar.js":198,"./az":205,"./az.js":205,"./be":206,"./be.js":206,"./bg":207,"./bg.js":207,"./bm":208,"./bm.js":208,"./bn":209,"./bn.js":209,"./bo":210,"./bo.js":210,"./br":211,"./br.js":211,"./bs":212,"./bs.js":212,"./ca":213,"./ca.js":213,"./cs":214,"./cs.js":214,"./cv":215,"./cv.js":215,"./cy":216,"./cy.js":216,"./da":217,"./da.js":217,"./de":218,"./de-at":219,"./de-at.js":219,"./de-ch":220,"./de-ch.js":220,"./de.js":218,"./dv":221,"./dv.js":221,"./el":222,"./el.js":222,"./en-au":223,"./en-au.js":223,"./en-ca":224,"./en-ca.js":224,"./en-gb":225,"./en-gb.js":225,"./en-ie":226,"./en-ie.js":226,"./en-nz":227,"./en-nz.js":227,"./eo":228,"./eo.js":228,"./es":229,"./es-do":230,"./es-do.js":230,"./es-us":231,"./es-us.js":231,"./es.js":229,"./et":232,"./et.js":232,"./eu":233,"./eu.js":233,"./fa":234,"./fa.js":234,"./fi":235,"./fi.js":235,"./fo":236,"./fo.js":236,"./fr":237,"./fr-ca":238,"./fr-ca.js":238,"./fr-ch":239,"./fr-ch.js":239,"./fr.js":237,"./fy":240,"./fy.js":240,"./gd":241,"./gd.js":241,"./gl":242,"./gl.js":242,"./gom-latn":243,"./gom-latn.js":243,"./gu":244,"./gu.js":244,"./he":245,"./he.js":245,"./hi":246,"./hi.js":246,"./hr":247,"./hr.js":247,"./hu":248,"./hu.js":248,"./hy-am":249,"./hy-am.js":249,"./id":250,"./id.js":250,"./is":251,"./is.js":251,"./it":252,"./it.js":252,"./ja":253,"./ja.js":253,"./jv":254,"./jv.js":254,"./ka":255,"./ka.js":255,"./kk":256,"./kk.js":256,"./km":257,"./km.js":257,"./kn":258,"./kn.js":258,"./ko":259,"./ko.js":259,"./ky":260,"./ky.js":260,"./lb":261,"./lb.js":261,"./lo":262,"./lo.js":262,"./lt":263,"./lt.js":263,"./lv":264,"./lv.js":264,"./me":265,"./me.js":265,"./mi":266,"./mi.js":266,"./mk":267,"./mk.js":267,"./ml":268,"./ml.js":268,"./mr":269,"./mr.js":269,"./ms":270,"./ms-my":271,"./ms-my.js":271,"./ms.js":270,"./my":272,"./my.js":272,"./nb":273,"./nb.js":273,"./ne":274,"./ne.js":274,"./nl":275,"./nl-be":276,"./nl-be.js":276,"./nl.js":275,"./nn":277,"./nn.js":277,"./pa-in":278,"./pa-in.js":278,"./pl":279,"./pl.js":279,"./pt":280,"./pt-br":281,"./pt-br.js":281,"./pt.js":280,"./ro":282,"./ro.js":282,"./ru":283,"./ru.js":283,"./sd":284,"./sd.js":284,"./se":285,"./se.js":285,"./si":286,"./si.js":286,"./sk":287,"./sk.js":287,"./sl":288,"./sl.js":288,"./sq":289,"./sq.js":289,"./sr":290,"./sr-cyrl":291,"./sr-cyrl.js":291,"./sr.js":290,"./ss":292,"./ss.js":292,"./sv":293,"./sv.js":293,"./sw":294,"./sw.js":294,"./ta":295,"./ta.js":295,"./te":296,"./te.js":296,"./tet":297,"./tet.js":297,"./th":298,"./th.js":298,"./tl-ph":299,"./tl-ph.js":299,"./tlh":300,"./tlh.js":300,"./tr":301,"./tr.js":301,"./tzl":302,"./tzl.js":302,"./tzm":303,"./tzm-latn":304,"./tzm-latn.js":304,"./tzm.js":303,"./uk":305,"./uk.js":305,"./ur":306,"./ur.js":306,"./uz":307,"./uz-latn":308,"./uz-latn.js":308,"./uz.js":307,"./vi":309,"./vi.js":309,"./x-pseudo":310,"./x-pseudo.js":310,"./yo":311,"./yo.js":311,"./zh-cn":312,"./zh-cn.js":312,"./zh-hk":313,"./zh-hk.js":313,"./zh-tw":314,"./zh-tw.js":314};o.keys=function(){return Object.keys(s)},o.resolve=n,e.exports=o,o.id=371}},[338]);
+webpackJsonp([19],{
+
+/***/ 115:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 115;
+
+/***/ }),
+
+/***/ 156:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/about/about.module": [
+		420,
+		18
+	],
+	"../pages/article-detail/article-detail.module": [
+		421,
+		17
+	],
+	"../pages/credits/credits.module": [
+		422,
+		16
+	],
+	"../pages/event-detail/event-detail.module": [
+		423,
+		15
+	],
+	"../pages/events/events.module": [
+		424,
+		14
+	],
+	"../pages/home/home.module": [
+		425,
+		13
+	],
+	"../pages/jesus/jesus.module": [
+		426,
+		12
+	],
+	"../pages/location/location.module": [
+		427,
+		11
+	],
+	"../pages/menu/menu.module": [
+		428,
+		10
+	],
+	"../pages/post-detail/post-detail.module": [
+		429,
+		9
+	],
+	"../pages/prayer/prayer.module": [
+		430,
+		8
+	],
+	"../pages/resources/resources.module": [
+		431,
+		7
+	],
+	"../pages/series/series.module": [
+		432,
+		6
+	],
+	"../pages/sermon/sermon.module": [
+		433,
+		5
+	],
+	"../pages/sermons/sermons.module": [
+		434,
+		4
+	],
+	"../pages/staff/staff.module": [
+		435,
+		3
+	],
+	"../pages/stories/stories.module": [
+		436,
+		2
+	],
+	"../pages/tabs/tabs.module": [
+		437,
+		1
+	],
+	"../pages/times/times.module": [
+		438,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 156;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 334:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GreybackProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var GreybackProvider = (function () {
+    function GreybackProvider(http, httpClient) {
+        this.http = http;
+        this.httpClient = httpClient;
+        this.rootUrl = 'http://gracepoint.server2.greyback.net/';
+        this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */];
+        console.log('Hello GreybackProvider Provider');
+        this.headers.append('Accept', 'application/json');
+        this.headers.append('Content-Type', 'application/json');
+        this.headers.append('Authorization', "Basic " + btoa('patrickkemp:Three3leaf'));
+        this.opts = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: this.headers });
+    }
+    GreybackProvider.prototype.getNews = function () {
+        return this.http.get(this.rootUrl + '/ajax/plugin/news/news_articles/json/limit:4/category:1').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getCommunity = function () {
+        //return this.http.get(this.rootUrl + '/ajax/plugin/news/news_articles/json/limit:10/category:2').map(result => result.json());
+        return this.http.get(this.rootUrl + '/ajax/plugin/community/community_posts/latest/department:1').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getSeries = function () {
+        return this.http.get(this.rootUrl + '/ajax/plugin/message/message_series/json/category:1').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getSeriesById = function (seriesId) {
+        return this.http.get(this.rootUrl + '/ajax/plugin/message/message_messages/json/series:' + seriesId).map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getLatestSermon = function () {
+        return this.http.get(this.rootUrl + '/ajax/plugin/message/message_messages/json/limit:1/category:1').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getEvents = function () {
+        return this.http.get(this.rootUrl + '/ajax/plugin/news/news_articles/json/limit:10/category:3').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getStaff = function () {
+        return this.http.get(this.rootUrl + '/ajax/plugin/staff/staff_departments/json/department:1').map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getCalendars = function () {
+        return this.http.get('https://secure.accessacs.com/api_accessacs_mobile/v2/10413/calendars', this.opts).map(function (result) { return result.json(); });
+    };
+    GreybackProvider.prototype.getCalendar = function (index) {
+        var _this = this;
+        //return this.http.get('assets/search.json').map(result => result.json());
+        //&departmentIds=
+        return new Promise(function (resolve) {
+            _this.httpClient.get('http://api.serviceu.com/rest/events/occurrences/search?orgKey=9ccb6bd6-c8f2-4e89-8b1e-b8cfbc85c19d&format=json').subscribe(function (data) {
+                resolve(data);
+            }, function (err) {
+                _this.httpClient.get('assets/search.json').subscribe(function (data) {
+                    resolve(data);
+                }, function (err) {
+                    console.warn(['getCalendar', err]);
+                });
+            });
+        });
+    };
+    /*
+    {
+    CategoryList: "Department Event",
+    ContactEmail: "abills@fbcwf.org",
+    ContactName: "Angela Bills",
+    ContactPhone: "",
+    DateModified: "01/15/2018 03:36:31 PM",
+    DepartmentList: "Adult Ministry",
+    DepartmentName: "Adult Ministry",
+    Description: "Off Campus",
+    DisplayTimes: false,
+    EventId: 9872952,
+    ExternalEventUrl: "",
+    ExternalImageUrl: "",
+    LocationAddress: "2907 Garnett Ave WF 76308",
+    LocationAddress2: "",
+    LocationCity: "",
+    LocationName: "Jason' Deli",
+    LocationState: "",
+    LocationZip: "",
+    MaxDate: "01/01/1900 12:00:00 AM",
+    MinDate: "01/01/1900 12:00:00 AM",
+    Name: "Perkins LIFE Group Fellowship - January",
+    OccurrenceEndTime: "01/15/2018 08:00:00 PM",
+    OccurrenceId: 401278366,
+    OccurrenceStartTime: "01/15/2018 06:00:00 PM",
+    PublicEventUrl: "http://public.serviceu.com/calendar/EventDetails.asp?OrgKey=9ccb6bd6-c8f2-4e89-8b1e-b8cfbc85c19d&EventID=9872952&OccID=401278366",
+    RegistrationEnabled: 0,
+    RegistrationUrl: "",
+    ResourceEndTime: "01/15/2018 08:00:00 PM",
+    ResourceList: "",
+    ResourceStartTime: "01/15/2018 06:00:00 PM",
+    StatusDescription: "Approved",
+    SubmittedBy: "Angela Bills"
+    }
+    */
+    GreybackProvider.prototype.getCalendarX = function (index) {
+        var today = __WEBPACK_IMPORTED_MODULE_4_moment__().format('YYYY/MM/DD');
+        var end = __WEBPACK_IMPORTED_MODULE_4_moment__().add(90, 'days').format('YYYY/MM/DD');
+        //58c08c0d-776d-4762-8180-0df5fcf1ae74
+        return this.http.get('https://secure.accessacs.com/api_accessacs_mobile/v2/10413/events?&startdate=' + today + '&stopdate=' + end + '&pageIndex=' + index + '&pageSize=50&calendarids=58c08c0d-776d-4762-8180-0df5fcf1ae74', this.opts).map(function (result) { return result.json(); });
+        //return this.http.get('http://localhost:8100/assets/data.json', this.opts).map(result => result.json());
+    };
+    GreybackProvider.prototype.getEvent = function (eventId) {
+        //console.log(eventId);
+        return this.http.get('https://secure.accessacs.com/api_accessacs_mobile/v2/10413/events/' + eventId, this.opts).map(function (result) { return result.json(); });
+    };
+    return GreybackProvider;
+}());
+GreybackProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]])
+], GreybackProvider);
+
+//# sourceMappingURL=greyback.js.map
+
+/***/ }),
+
+/***/ 335:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharedModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_moment__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_angular2_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SharedModule = (function () {
+    function SharedModule() {
+    }
+    return SharedModule;
+}());
+SharedModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+        declarations: [],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2_angular2_moment__["MomentModule"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicModule */]
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_2_angular2_moment__["MomentModule"]
+        ]
+    })
+], SharedModule);
+
+//# sourceMappingURL=shared.module.js.map
+
+/***/ }),
+
+/***/ 336:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AudioProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(41);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var AudioProvider = (function () {
+    function AudioProvider(http, alertCtrl) {
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.playing = false;
+        this.loading = true;
+        this.current = 0;
+        this.duration = 0;
+        this.percentage = 0;
+        this.title = '';
+        this.speaker = '';
+        var self = this;
+        this.player = new Audio();
+        this.player.ontimeupdate = function (player) {
+            self.current = new Date(1970, 0, 1).setSeconds(player.srcElement.currentTime);
+            self.duration = new Date(1970, 0, 1).setSeconds(player.srcElement.duration);
+            self.percentage = Math.round(player.srcElement.currentTime / player.srcElement.duration * 100);
+        };
+        this.player.onprogress = function (data) {
+            console.log(['onprogress', data]);
+        };
+        this.player.oncanplay = function (data) {
+            console.log(['oncanplay', data]);
+            //self.player.play();
+        };
+        this.player.oncanplaythrough = function (data) {
+            self.loading = false;
+            console.log(['oncanplaythrough', data]);
+        };
+        this.player.onstalled = function (data) {
+            console.log(['onstalled', data]);
+        };
+        this.player.onabort = function (data) {
+            console.log(['onabort', data]);
+        };
+        this.player.onerror = function (data) {
+            var alert = self.alertCtrl.create({
+                title: 'Oh no!',
+                subTitle: 'There was an error trying to load the audio file. You might try again later or listen to a different one.',
+                buttons: ['Ok']
+            });
+            alert.present();
+            self.playing = false;
+            self.loading = true;
+            self.title = '';
+            console.log(['onerror', data]);
+        };
+        this.player.onloadstart = function (data) {
+            console.log(['onloadstart', data]);
+        };
+        this.player.onplaying = function (data) {
+            console.log(['onplaying', data]);
+        };
+        this.player.onplay = function (data) {
+            console.log(['onplay', data]);
+        };
+        this.player.onpause = function (data) {
+            console.log(['onpause', data]);
+        };
+    }
+    AudioProvider.prototype.play = function (config) {
+        this.playing = true;
+        this.loading = true;
+        this.title = config.title;
+        this.speaker = config.speaker;
+        this.player.src = config.url + '/file.mp3';
+        this.player.load();
+        this.player.play();
+    };
+    AudioProvider.prototype.pause = function () {
+        if (this.playing) {
+            this.player.pause();
+            this.playing = false;
+        }
+        else {
+            this.player.play();
+            this.playing = true;
+        }
+    };
+    AudioProvider.prototype.scrub = function (percent) {
+        this.player.currentTime = (percent.value / 100) * this.player.duration;
+    };
+    return AudioProvider;
+}());
+AudioProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* AlertController */]])
+], AudioProvider);
+
+//# sourceMappingURL=audio.js.map
+
+/***/ }),
+
+/***/ 338:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(360);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 360:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export MyErrorHandler */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angular2_moment__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_angular2_moment__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__shared_module__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_greyback_greyback__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_audio_audio__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common_http__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_pro__ = __webpack_require__(419);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_pro___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__ionic_pro__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var IonicPro = __WEBPACK_IMPORTED_MODULE_13__ionic_pro__["Pro"].init('2191a4b0', {
+    appVersion: "1.0.0"
+});
+var MyErrorHandler = (function () {
+    function MyErrorHandler() {
+    }
+    MyErrorHandler.prototype.handleError = function (err) {
+        IonicPro.monitoring.handleNewError(err);
+    };
+    return MyErrorHandler;
+}());
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */], {
+                mode: 'ios'
+            }, {
+                links: [
+                    { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/article-detail/article-detail.module#ArticleDetailPageModule', name: 'ArticleDetailPage', segment: 'article/:articleId', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/credits/credits.module#CreditsPageModule', name: 'CreditsPage', segment: 'credits', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/event-detail/event-detail.module#EventDetailPageModule', name: 'EventDetailPage', segment: 'event/:eventId', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/events/events.module#EventsPageModule', name: 'EventsPage', segment: 'events', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/jesus/jesus.module#JesusPageModule', name: 'JesusPage', segment: 'jesus', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/location/location.module#LocationPageModule', name: 'LocationPage', segment: 'location', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/post-detail/post-detail.module#PostDetailPageModule', name: 'PostDetailPage', segment: 'post/:postId', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/prayer/prayer.module#PrayerPageModule', name: 'PrayerPage', segment: 'prayer', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/resources/resources.module#ResourcesPageModule', name: 'ResourcesPage', segment: 'resources', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/series/series.module#SeriesPageModule', name: 'SeriesPage', segment: 'series', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/sermon/sermon.module#SermonPageModule', name: 'SermonPage', segment: 'sermon', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/sermons/sermons.module#SermonsPageModule', name: 'SermonsPage', segment: 'sermons/:seriesId', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/staff/staff.module#StaffPageModule', name: 'StaffPage', segment: 'staff', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/stories/stories.module#StoriesPageModule', name: 'StoriesPage', segment: 'stories', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/times/times.module#TimesPageModule', name: 'TimesPage', segment: 'times', priority: 'low', defaultHistory: [] }
+                ]
+            }),
+            __WEBPACK_IMPORTED_MODULE_7_angular2_moment__["MomentModule"],
+            __WEBPACK_IMPORTED_MODULE_9__shared_module__["a" /* SharedModule */],
+            __WEBPACK_IMPORTED_MODULE_12__angular_common_http__["b" /* HttpClientModule */]
+        ],
+        exports: [],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_10__providers_greyback_greyback__["a" /* GreybackProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_audio_audio__["a" /* AudioProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__["a" /* InAppBrowser */],
+            __WEBPACK_IMPORTED_MODULE_9__shared_module__["a" /* SharedModule */]
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 391:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 159,
+	"./af.js": 159,
+	"./ar": 160,
+	"./ar-dz": 161,
+	"./ar-dz.js": 161,
+	"./ar-kw": 162,
+	"./ar-kw.js": 162,
+	"./ar-ly": 163,
+	"./ar-ly.js": 163,
+	"./ar-ma": 164,
+	"./ar-ma.js": 164,
+	"./ar-sa": 165,
+	"./ar-sa.js": 165,
+	"./ar-tn": 166,
+	"./ar-tn.js": 166,
+	"./ar.js": 160,
+	"./az": 167,
+	"./az.js": 167,
+	"./be": 168,
+	"./be.js": 168,
+	"./bg": 169,
+	"./bg.js": 169,
+	"./bm": 170,
+	"./bm.js": 170,
+	"./bn": 171,
+	"./bn.js": 171,
+	"./bo": 172,
+	"./bo.js": 172,
+	"./br": 173,
+	"./br.js": 173,
+	"./bs": 174,
+	"./bs.js": 174,
+	"./ca": 175,
+	"./ca.js": 175,
+	"./cs": 176,
+	"./cs.js": 176,
+	"./cv": 177,
+	"./cv.js": 177,
+	"./cy": 178,
+	"./cy.js": 178,
+	"./da": 179,
+	"./da.js": 179,
+	"./de": 180,
+	"./de-at": 181,
+	"./de-at.js": 181,
+	"./de-ch": 182,
+	"./de-ch.js": 182,
+	"./de.js": 180,
+	"./dv": 183,
+	"./dv.js": 183,
+	"./el": 184,
+	"./el.js": 184,
+	"./en-au": 185,
+	"./en-au.js": 185,
+	"./en-ca": 186,
+	"./en-ca.js": 186,
+	"./en-gb": 187,
+	"./en-gb.js": 187,
+	"./en-ie": 188,
+	"./en-ie.js": 188,
+	"./en-nz": 189,
+	"./en-nz.js": 189,
+	"./eo": 190,
+	"./eo.js": 190,
+	"./es": 191,
+	"./es-do": 192,
+	"./es-do.js": 192,
+	"./es-us": 193,
+	"./es-us.js": 193,
+	"./es.js": 191,
+	"./et": 194,
+	"./et.js": 194,
+	"./eu": 195,
+	"./eu.js": 195,
+	"./fa": 196,
+	"./fa.js": 196,
+	"./fi": 197,
+	"./fi.js": 197,
+	"./fo": 198,
+	"./fo.js": 198,
+	"./fr": 199,
+	"./fr-ca": 200,
+	"./fr-ca.js": 200,
+	"./fr-ch": 201,
+	"./fr-ch.js": 201,
+	"./fr.js": 199,
+	"./fy": 202,
+	"./fy.js": 202,
+	"./gd": 203,
+	"./gd.js": 203,
+	"./gl": 204,
+	"./gl.js": 204,
+	"./gom-latn": 205,
+	"./gom-latn.js": 205,
+	"./gu": 206,
+	"./gu.js": 206,
+	"./he": 207,
+	"./he.js": 207,
+	"./hi": 208,
+	"./hi.js": 208,
+	"./hr": 209,
+	"./hr.js": 209,
+	"./hu": 210,
+	"./hu.js": 210,
+	"./hy-am": 211,
+	"./hy-am.js": 211,
+	"./id": 212,
+	"./id.js": 212,
+	"./is": 213,
+	"./is.js": 213,
+	"./it": 214,
+	"./it.js": 214,
+	"./ja": 215,
+	"./ja.js": 215,
+	"./jv": 216,
+	"./jv.js": 216,
+	"./ka": 217,
+	"./ka.js": 217,
+	"./kk": 218,
+	"./kk.js": 218,
+	"./km": 219,
+	"./km.js": 219,
+	"./kn": 220,
+	"./kn.js": 220,
+	"./ko": 221,
+	"./ko.js": 221,
+	"./ky": 222,
+	"./ky.js": 222,
+	"./lb": 223,
+	"./lb.js": 223,
+	"./lo": 224,
+	"./lo.js": 224,
+	"./lt": 225,
+	"./lt.js": 225,
+	"./lv": 226,
+	"./lv.js": 226,
+	"./me": 227,
+	"./me.js": 227,
+	"./mi": 228,
+	"./mi.js": 228,
+	"./mk": 229,
+	"./mk.js": 229,
+	"./ml": 230,
+	"./ml.js": 230,
+	"./mr": 231,
+	"./mr.js": 231,
+	"./ms": 232,
+	"./ms-my": 233,
+	"./ms-my.js": 233,
+	"./ms.js": 232,
+	"./mt": 234,
+	"./mt.js": 234,
+	"./my": 235,
+	"./my.js": 235,
+	"./nb": 236,
+	"./nb.js": 236,
+	"./ne": 237,
+	"./ne.js": 237,
+	"./nl": 238,
+	"./nl-be": 239,
+	"./nl-be.js": 239,
+	"./nl.js": 238,
+	"./nn": 240,
+	"./nn.js": 240,
+	"./pa-in": 241,
+	"./pa-in.js": 241,
+	"./pl": 242,
+	"./pl.js": 242,
+	"./pt": 243,
+	"./pt-br": 244,
+	"./pt-br.js": 244,
+	"./pt.js": 243,
+	"./ro": 245,
+	"./ro.js": 245,
+	"./ru": 246,
+	"./ru.js": 246,
+	"./sd": 247,
+	"./sd.js": 247,
+	"./se": 248,
+	"./se.js": 248,
+	"./si": 249,
+	"./si.js": 249,
+	"./sk": 250,
+	"./sk.js": 250,
+	"./sl": 251,
+	"./sl.js": 251,
+	"./sq": 252,
+	"./sq.js": 252,
+	"./sr": 253,
+	"./sr-cyrl": 254,
+	"./sr-cyrl.js": 254,
+	"./sr.js": 253,
+	"./ss": 255,
+	"./ss.js": 255,
+	"./sv": 256,
+	"./sv.js": 256,
+	"./sw": 257,
+	"./sw.js": 257,
+	"./ta": 258,
+	"./ta.js": 258,
+	"./te": 259,
+	"./te.js": 259,
+	"./tet": 260,
+	"./tet.js": 260,
+	"./th": 261,
+	"./th.js": 261,
+	"./tl-ph": 262,
+	"./tl-ph.js": 262,
+	"./tlh": 263,
+	"./tlh.js": 263,
+	"./tr": 264,
+	"./tr.js": 264,
+	"./tzl": 265,
+	"./tzl.js": 265,
+	"./tzm": 266,
+	"./tzm-latn": 267,
+	"./tzm-latn.js": 267,
+	"./tzm.js": 266,
+	"./uk": 268,
+	"./uk.js": 268,
+	"./ur": 269,
+	"./ur.js": 269,
+	"./uz": 270,
+	"./uz-latn": 271,
+	"./uz-latn.js": 271,
+	"./uz.js": 270,
+	"./vi": 272,
+	"./vi.js": 272,
+	"./x-pseudo": 273,
+	"./x-pseudo.js": 273,
+	"./yo": 274,
+	"./yo.js": 274,
+	"./zh-cn": 275,
+	"./zh-cn.js": 275,
+	"./zh-hk": 276,
+	"./zh-hk.js": 276,
+	"./zh-tw": 277,
+	"./zh-tw.js": 277
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 391;
+
+/***/ }),
+
+/***/ 418:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(332);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        //set starting page here
+        this.rootPage = 'MenuPage';
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/tonymccallie/Sites/gracepoint/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/tonymccallie/Sites/gracepoint/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[338]);
+//# sourceMappingURL=main.js.map

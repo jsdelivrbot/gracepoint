@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="net.greyback.fbcwichitafalls" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>First Baptist Wichita Falls</name>
-    <description>Sermons and News for First Baptist Wichita Falls, Texas</description>
+<widget id="net.greyback.gracepoint" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Graepoint Coppell</name>
+    <description>Sermons and News for Gracepoint Coppell</description>
     <author email="info@greyback.net" href="http://greyback.net/">GreyBack Labs, LLP</author>
     <content src="index.html" />
     <access origin="*" />
@@ -82,13 +82,6 @@
     <engine name="android" spec="^6.2.3" />
     <engine name="ios" spec="^4.4.0" />
     <plugin name="cordova-plugin-device" spec="^1.1.4" />
-    <plugin name="cordova-plugin-ionic" spec="^2.0.4">
-        <variable name="APP_ID" value="2191a4b0" />
-        <variable name="CHANNEL_NAME" value="Master" />
-        <variable name="UPDATE_METHOD" value="background" />
-        <variable name="UPDATE_API" value="https://api.ionicjs.com" />
-        <variable name="MAX_STORE" value="2" />
-    </plugin>
     <plugin name="cordova-plugin-media" spec="^3.0.1">
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value=" " />
     </plugin>
@@ -97,4 +90,11 @@
     <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="nl.x-services.plugins.backgroundaudio" spec="^1.0.1" />
+    <plugin name="cordova-plugin-ionic" spec="^2.0.4">
+        <variable name="APP_ID" value="6fcb43a7" />
+        <variable name="CHANNEL_NAME" value="Master" />
+        <variable name="UPDATE_METHOD" value="auto" />
+        <variable name="UPDATE_API" value="https://api.ionicjs.com" />
+        <variable name="MAX_STORE" value="2" />
+    </plugin>
 </widget>
